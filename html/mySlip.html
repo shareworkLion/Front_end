@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+  <!-- GOOGLE ICON -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+  <!-- RESET CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+
+  <title>My Slip Page</title>
+  <link rel="stylesheet" href="./css/mySlip.css">
+
+</head>
+<body>
+  
+  <!-- HEADER -->
+  <ul class="nav justify-content-center bg-dark pt-2 pb-2">
+    <li class="nav-item">
+      <a class="nav-link" id="btnLogo" aria-current="page" href="#">
+        <img src="./img/Logo.png" alt="Let's Slip">
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="toAboutUs" href="#">
+        <img src="./img/Btn_toAboutUs.png" alt="">
+      </a>
+    </li>
+    <div class="inputWrapper">
+      <input class="form-control me-2" type="search" placeholder="다양한 Slip을 검색하며 실패를 즐기세요!" aria-label="Search">
+      <button class="material-icons hello" type="submit">search</button>
+    </div>
+    <li class="nav-item">
+      <a class="nav-link" id="btnToMyGallery" href="#">
+        <img src="./img/Btn_toMyGallery.png" alt="">
+      </a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" id="btnOpenGallery" href="#">
+        <img src="./img/Btn_openGallery.png" alt="">
+      </a>
+    </li>
+  </ul>
+
+  <div class="inner">
+    <!-- 목록으로 -->
+    <button class="m-4 backBtn">
+      <span class="material-icons">arrow_back</span>
+      <div>목록으로</div>
+    </button>
+
+    <!-- MY SLIP PROFILE -->
+    <section class="p-5 profile-container">
+      <div class="big-wrapper">
+        <img id="myProfileImg" src="./img/Main_exGalleryImg.png" alt=""> 
+        <div class="small-wrapper">
+          <img src="./img/Main_Hash.png" alt="">
+          <div class="mt-1 mb-1 mySlipTitle">내 미래도 저무는 중</div>
+          <div class="table-box">
+            <table class="table bg-primary">
+              <tbody>
+                <tr>
+                  <td>작가: </td>
+                  <td id="Author">Hi Susan</td>
+                </tr>
+                <tr>
+                  <td>응원 수: </td>
+                  <td id="">5</td>
+                </tr>
+                <tr>
+                  <td>제작 일시: </td>
+                  <td id="">2022.08.06</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- 아이콘 - 수정/업로드 -->
+    <div class="icon-wrapper">
+      <button id="btnModify">
+        <img src="./img/Btn_Modify.png" alt="">
+      </button>
+      <button id="btnUploadPhoto">
+        <img src="./img/Btn_UploadPhoto.png" alt="">
+      </button>
+    </div>
+    
+    <!-- 구분선 -->
+    <hr />
+
+    <!-- Slip 작품 소개 -->
+    <section class="introWork bg-warning">
+      <p class="p-4 bg-info">Slip 작품 소개</p>
+      <div class="container work-container">
+        <div class="col-md-4 col-sm p-4 work-wrapper">
+          <div class="pb-1 workNum">01</div>
+          <div class="pb-3 workTitle">당신의 Slip을 들려주세요</div>
+          <div class="workContents">
+            스며들어 싹이 이것을 되려니와, 이상은 같은 꽃이 보라. 웅대한 청춘 방지하는 힘차게 설레는 아니다. 피에 얼마나 얼마나 무엇을 힘차게 있다. 청춘의 군영과 끓는 기관과 그들은 무한한 방지하는 보이는 피다. 귀는 오아이스도 옷을 그들의 못하다 피가 수 쓸쓸하랴? 노년에게서 얼마나 생명을 설산에서 날카로우나 듣는다. 그들의 현저하게 얼마나 인생에 방황하여도, 무엇을 끓는다. 따뜻한 그들에게 어디 위하여서. 때에, 용기가 하였으며, 군영과 품었기 행복스럽고 같은 찾아다녀도, 아름다우냐? 타오르고 얼마나 사랑의 대고, 열매를 현저하게 힘있다. 풍부하게 석가는 이 듣기만 끓는다.
+          </div>
+        </div>
+        <div class="col-md-4 col-sm p-4 work-wrapper">
+          <div class="pb-1 workNum">01</div>
+          <div class="pb-3 workTitle">당신의 Slip을 들려주세요</div>
+          <div class="workContents">
+            스며들어 싹이 이것을 되려니와, 이상은 같은 꽃이 보라. 웅대한 청춘 방지하는 힘차게 설레는 아니다. 피에 얼마나 얼마나 무엇을 힘차게 있다. 청춘의 군영과 끓는 기관과 그들은 무한한 방지하는 보이는 피다. 귀는 오아이스도 옷을 그들의 못하다 피가 수 쓸쓸하랴? 노년에게서 얼마나 생명을 설산에서 날카로우나 듣는다. 그들의 현저하게 얼마나 인생에 방황하여도, 무엇을 끓는다. 따뜻한 그들에게 어디 위하여서. 때에, 용기가 하였으며, 군영과 품었기 행복스럽고 같은 찾아다녀도, 아름다우냐? 타오르고 얼마나 사랑의 대고, 열매를 현저하게 힘있다. 풍부하게 석가는 이 듣기만 끓는다.
+          </div>
+        </div>
+        <div class="col-md-4 col-sm p-4 work-wrapper">
+          <div class="pb-1 workNum">03</div>
+          <div class="pb-3 workTitle">당신의 Slip을 들려주세요</div>
+          <div class="workContents">
+            스며들어 싹이 이것을 되려니와, 이상은 같은 꽃이 보라. 웅대한 청춘 방지하는 힘차게 설레는 아니다. 피에 얼마나 얼마나 무엇을 힘차게 있다. 청춘의 군영과 끓는 기관과 그들은 무한한 방지하는 보이는 피다. 귀는 오아이스도 옷을 그들의 못하다 피가 수 쓸쓸하랴? 노년에게서 얼마나 생명을 설산에서 날카로우나 듣는다. 그들의 현저하게 얼마나 인생에 방황하여도, 무엇을 끓는다. 따뜻한 그들에게 어디 위하여서. 때에, 용기가 하였으며, 군영과 품었기 행복스럽고 같은 찾아다녀도, 아름다우냐? 타오르고 얼마나 사랑의 대고, 열매를 현저하게 힘있다. 풍부하게 석가는 이 듣기만 끓는다.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 구분선 -->
+    <hr />
+
+    <!-- Slip 성공기 작품 소개 -->
+    <section class="introSuccessWork bg-warning">
+      <p class="p-4 bg-info">Slip 이후의 성공 이야기</p>
+      <div class="container work-container">
+        <div class="col-md-4 col-sm p-4 work-wrapper">
+          <div class="pb-1 workNum">01</div>
+          <div class="pb-3 workTitle">당신의 Slip을 들려주세요</div>
+          <div class="workContents">
+            스며들어 싹이 이것을 되려니와, 이상은 같은 꽃이 보라. 웅대한 청춘 방지하는 힘차게 설레는 아니다. 피에 얼마나 얼마나 무엇을 힘차게 있다. 청춘의 군영과 끓는 기관과 그들은 무한한 방지하는 보이는 피다. 귀는 오아이스도 옷을 그들의 못하다 피가 수 쓸쓸하랴? 노년에게서 얼마나 생명을 설산에서 날카로우나 듣는다. 그들의 현저하게 얼마나 인생에 방황하여도, 무엇을 끓는다. 따뜻한 그들에게 어디 위하여서. 때에, 용기가 하였으며, 군영과 품었기 행복스럽고 같은 찾아다녀도, 아름다우냐? 타오르고 얼마나 사랑의 대고, 열매를 현저하게 힘있다. 풍부하게 석가는 이 듣기만 끓는다.
+          </div>
+        </div>
+        <div class="col-md-4 col-sm p-4 work-wrapper">
+          <div class="pb-1 workNum">02</div>
+          <div class="pb-3 workTitle">당신의 Slip을 들려주세요</div>
+          <div class="workContents">
+            스며들어 싹이 이것을 되려니와, 이상은 같은 꽃이 보라. 웅대한 청춘 방지하는 힘차게 설레는 아니다. 피에 얼마나 얼마나 무엇을 힘차게 있다. 청춘의 군영과 끓는 기관과 그들은 무한한 방지하는 보이는 피다. 귀는 오아이스도 옷을 그들의 못하다 피가 수 쓸쓸하랴? 노년에게서 얼마나 생명을 설산에서 날카로우나 듣는다. 그들의 현저하게 얼마나 인생에 방황하여도, 무엇을 끓는다. 따뜻한 그들에게 어디 위하여서. 때에, 용기가 하였으며, 군영과 품었기 행복스럽고 같은 찾아다녀도, 아름다우냐? 타오르고 얼마나 사랑의 대고, 열매를 현저하게 힘있다. 풍부하게 석가는 이 듣기만 끓는다.
+          </div>
+        </div>
+        <div class="col-md-4 col-sm p-4 work-wrapper">
+          <div class="pb-1 workNum">03</div>
+          <div class="pb-3 workTitle">당신의 Slip을 들려주세요</div>
+          <div class="workContents">
+            스며들어 싹이 이것을 되려니와, 이상은 같은 꽃이 보라. 웅대한 청춘 방지하는 힘차게 설레는 아니다. 피에 얼마나 얼마나 무엇을 힘차게 있다. 청춘의 군영과 끓는 기관과 그들은 무한한 방지하는 보이는 피다. 귀는 오아이스도 옷을 그들의 못하다 피가 수 쓸쓸하랴? 노년에게서 얼마나 생명을 설산에서 날카로우나 듣는다. 그들의 현저하게 얼마나 인생에 방황하여도, 무엇을 끓는다. 따뜻한 그들에게 어디 위하여서. 때에, 용기가 하였으며, 군영과 품었기 행복스럽고 같은 찾아다녀도, 아름다우냐? 타오르고 얼마나 사랑의 대고, 열매를 현저하게 힘있다. 풍부하게 석가는 이 듣기만 끓는다.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 구분선 -->
+    <hr />
+
+    <!-- 아이콘 - 좋아요, 코멘트 -->
+    <div class="icon-wrapper">
+      <button id="btnModify">
+        <img src="./img/Btn_Comments.png" alt="">
+      </button>
+      <button id="btnUploadPhoto">
+        <img src="./img/Btn_Likes.png" alt="">
+      </button>
+    </div>
+  </div>
+
+
+</body>
+</html>

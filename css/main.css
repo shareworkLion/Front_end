@@ -1,0 +1,124 @@
+/* COMMON */
+body {
+  line-height: 1.4;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* INNER */
+.inner {
+  width: 900px;
+  margin: 0 auto;
+  /* position: relative; */
+}
+
+.nav .inputWrapper {
+  position: relative;
+  width: 420px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #fff;
+  margin: 10px 30px;
+}
+.nav .inputWrapper input[type="search"] {
+  width: 80%;
+  height: 100%;
+  border: none;
+  font-size: 16px;
+  margin-left: 5%;
+}
+.nav .inputWrapper .hello {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+
+.mainSection1 img {
+  max-width: 100%;
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  /* background-size: cover; */
+  background-color: #000;
+}
+.mainSection1-container {
+  height: 200px;
+  margin: 50px 0;
+  display: flex;
+  /* justify-content: center; */
+  align-content: center;
+}
+.mainSection1-container .number {
+  font-size: 45px;
+  font-weight: 600;
+  text-align: center;
+}
+.mainSection1-container .contaienr2 {
+  text-align: right;
+}
+.mainSection1-container .contaienr2 #MainNum {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* MAIN GALLERY */
+.mainGallery {
+  height: 500px;
+}
+.mainGallery .item {
+  /* border: 1px solid #000; */
+}
+.mainGallery .item img {
+  /* justify-content: center;
+  align-items: center; */
+  width: 170px;
+  height: 170px;
+}
+.mainGallery .item1 img {
+  float: right;
+}
+.mainGallery .item2 img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* FOOTER */
+.footer {
+  color: #fff;
+  height: 200px;
+  padding: 20px;
+  padding: 30px 0;
+}
+.footer .bigWrapper {
+  width: 70%;
+  margin: auto;
+}
+.footer .bigWrapper hr {
+  /* width: 100%; */
+  border: .5px solid #fff;
+}
+.footer .smallWrapper {
+  display: flex;
+  justify-content: space-between;
+  /* margin: auto; */
+}
+.footer .container2 a {
+  display: block;
+  margin: 10px;
+}
+.footer .container2 p {
+  margin-left: 10px;
+}
+.footer .container3 {
+  display: flex;
+}
+.footer #instagram {
+ /* background-color: rgba(0,0,0,0); */
+ /* justify-content: right; */
+ /* margin-right: auto; */
+ float: right;
+>>>>>>> 9edb70c0e318672d007c1c215f783c2cfbd5bf13
+}
