@@ -26,8 +26,6 @@ body {
   border: 2px solid;
   border-image:  linear-gradient(90deg, red, orange, yellow, green, rgb(52, 140, 255), rgb(43, 43, 255), purple);
   border-image-slice: 1;
-  margin-bottom: 50px;
-
 }
 
 .LoginBtn {
