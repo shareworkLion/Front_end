@@ -4,7 +4,7 @@ body {
 }
 .icon-wrapper {
   display: flex;
-  /* align-content: flex-end; */
+  justify-content: flex-end;
 }
 .icon-wrapper button {
   padding: 0;
@@ -26,15 +26,31 @@ body {
 }
 
 /* HEADER */
-.nav #toAboutUs {
-  visibility: hidden;
-}
 .nav .inputWrapper {
-  visibility: hidden;
+  position: relative;
+  width: 420px;
+  height: 40px;
+  border-radius: 40px;
+  background-color: #fff;
+  margin: 10px 30px;
 }
-.nav #btnToMyGallery {
-  visibility: hidden;
+.nav .inputWrapper input[type="search"] {
+  width: 80%;
+  height: 100%;
+  border: none;
+  font-size: 16px;
+  margin-left: 5%;
 }
+.nav .inputWrapper .btnSearch {
+  position: absolute;
+  right: 5%;
+  top: 20%;
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+.nav #toAboutUs,
+.nav .inputWrapper,
+.nav #btnToMyGallery,
 .nav #btnOpenGallery {
   visibility: hidden;
 }
@@ -51,23 +67,35 @@ body {
   display: flex;
   justify-content: space-around;
 }
+.profile-container .big-wrapper .img-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .profile-container .small-wrapper {
-
+  padding: 40px;
 }
 .profile-container .small-wrapper img {
   width: 70px;
   margin-top: 20px;
 }
+.profile-container .small-wrapper .mySlipTitle {
+  font-weight: 700;
+}
 .table-box {
-  border: 2px solid #000;
-  box-shadow: 5px 5px #585858;
+  /* border: 2px solid #000; */
+  /* box-shadow: 5px 5px #585858; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 .table {
-  /* border: outset; */
-  /* margin-top: 20px; */
+  margin-bottom: 0;
+  margin-left: 15px;
+  margin-right: 25px;
 }
-.table td {
-  
+.table #Author,
+.table #cheersNum,
+.table #makeDate {
+  padding-right: 15px;
 }
 
 
@@ -80,6 +108,7 @@ body {
   display: flex;
   word-break: break-all;
   text-align: justify;
+  padding-bottom: 200px;
 }
 .work-container .workNum,
 .work-container .workTitle {
