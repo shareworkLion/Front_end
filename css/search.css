@@ -1,0 +1,45 @@
+
+body {
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: black;
+}
+
+.input-group {
+  max-width: 600px;
+  margin: auto;
+}
+
+.form-control {
+    border:transparent;
+    border-radius: 0%;
+    border-bottom: 1px solid white;
+    background-color: black;
+}
+
+.nav .inputWrapper {
+    position: relative;
+    width: 420px;
+    height: 36px;
+    border-radius: 36px;
+    background-color: #fff;
+    margin: 10px 30px;
+  }
+
+  .nav .inputWrapper {
+    position: relative;
+    width: 420px;
+    height: 36px;
+    border-radius: 36px;
+    background-color: #fff;
+    margin: 10px 30px;
+  }
+  
+  .nav .inputWrapper .hello {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    color: white;
+  }
