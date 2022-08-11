@@ -1,25 +1,25 @@
 # Front_end
 
-## main page 수정중
+## main page
 - index.html
 - main.css
 
-### [주의]
-아래 두 파일은 디자인 조정 후 위의 두 파일에 합치는 작업 중!
-- main.html
-- header.css
+## 개인 slip page
+- /html/mySlip.html
+- /css/mySlip.css
 
-
-## 개인 slip page html 작성 완료
-- /css/mySlip.html
-- /html/mySlip.css
+## 마이페이지 [수정중]
+마이페이지 화면
+- /html/myPage1.html
+- /css/myPage1.css
 
 ## 로그인 페이지
 - /html/login.html
 - /css/sigin.css
 
+## 회원가입 페이지
 
-### 기타
+### 기타 (마지막에 수정할 예정)
 - /html/header.html
 - /html/footer.html
 

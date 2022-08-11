@@ -14,8 +14,10 @@ a {
   /* position: relative; */
 }
 
-.nav #toAboutUs {
-
+.nav .aboutus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .nav .inputWrapper {
   position: relative;
@@ -32,7 +34,7 @@ a {
   font-size: 16px;
   margin-left: 5%;
 }
-.nav .inputWrapper .hello {
+.nav .inputWrapper .btnSearch {
   position: absolute;
   right: 5%;
   top: 20%;
@@ -69,14 +71,22 @@ a {
 
 /* MAIN GALLERY */
 .mainGallery {
-  height: 500px;
+  /* height: 500px; */
 }
-.mainGallery .item {
-  /* border: 1px solid #000; */
+.mainGallery .main-gallery-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.mainGallery .btnForward,
+.mainGallery .btnNext {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  padding: 0 20px;
+  font-size: 70px;
+  color: #fff;
 }
 .mainGallery .item img {
-  /* justify-content: center;
-  align-items: center; */
   width: 170px;
   height: 170px;
 }
@@ -86,6 +96,31 @@ a {
 .mainGallery .item2 img {
   display: block;
   margin: 0 auto;
+}
+.mainGallery .gallery-btn-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.mainGallery .gallery-btn-wrapper button {
+  margin: 0 1px;
+  background-color: rgba(0,0,0,0);
+  border: none;
+}
+
+/* MAIN KEYWORD SECTION */
+.mainKeywordSection .wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+.mainKeywordSection .wrapper .KeywordTitle {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.mainKeywordSection .wrapper .mainKeywordBtn1,
+.mainKeywordSection .wrapper .mainKeywordBtn2,
+.mainKeywordSection .wrapper .mainKeywordBtn3 {
+  width: 70px;
 }
 
 /* FOOTER */
