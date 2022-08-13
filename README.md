@@ -8,16 +8,19 @@
 - /html/mySlip.html
 - /css/mySlip.css
 
-## 마이페이지 [수정중]
+## 마이페이지
 ### 1. 마이페이지 메인화면
 - /html/myPage1.html
 - /css/myPage1.css
 
-### 2. 마이페이지 이름 변경화면 [수정중]
+### 2. 마이페이지 이름 변경화면
 - /html/myPage2.html
 - /css/myPage2.css
 
 ### 3. 마이페이지 MBTI 변경화면
+- /html/myPage3.html
+- /css/myPage3.css
+
 ### 4. 마이페이지 비밀번호 변경화면
 
 
