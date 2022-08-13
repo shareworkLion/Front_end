@@ -1,0 +1,80 @@
+/* COMMON */
+body {
+    line-height: 1.4;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  /* INNER */
+  .inner {
+    width: 900px;
+    margin: 0 auto;
+    /* position: relative; */
+  }
+  
+  /* HEADER */
+  .nav #toAboutUs {
+    visibility: hidden;
+  }
+  .nav .inputWrapper {
+    position: relative;
+    width: 420px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #fff;
+    margin: 10px 30px;
+  }
+  .nav .inputWrapper input[type="search"] {
+    width: 80%;
+    height: 100%;
+    border: none;
+    font-size: 16px;
+    margin-left: 5%;
+  }
+  .nav .inputWrapper .btnSearch {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    background-color: rgba(0,0,0,0);
+    border: none;
+  }
+  
+  /* MY PAGE MAIN SECTION */
+  .searchSuccessHeader {
+    color: #000;
+    font-size: 20px;
+    font-weight: 800;
+    margin-top: 35px;
+
+  }
+  .resultImg{
+    float: left;
+    margin-top: 15px;
+    margin-right: 20px;
+  }
+
+  .profile{
+    text-align: center;
+    font-weight: bold;
+  }
+  .resultTitle {
+    font-weight: bold;
+    font-size: large;
+    margin-bottom: 10px;
+  }
+
+  span{
+    vertical-align: middle;
+    margin-right: 15px;
+  }
+
+  .reulstTitle2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+ 
