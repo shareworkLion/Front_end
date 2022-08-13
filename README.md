@@ -22,7 +22,8 @@
 - /css/myPage3.css
 
 ### 4. 마이페이지 비밀번호 변경화면
-
+- /html/myPage4.html
+- /css/myPage4.css
 
 ## 로그인 페이지
 - /html/login.html
