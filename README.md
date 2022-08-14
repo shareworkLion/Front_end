@@ -4,6 +4,15 @@
 - index.html
 - main.css
 
+## best slip awards
+- /html/bestAwards.html
+- /css/bestAwards.css
+
+## about us
+- /html/aboutUus.html
+- /css/aboutUs.css
+(추가) 물결 배경 적용
+
 ## 개인 slip page
 - /html/mySlip.html
 - /css/mySlip.css

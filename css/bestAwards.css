@@ -45,36 +45,17 @@ a {
   border: none;
 }
 
-.mainSection1 img {
-  max-width: 100%;
-  /* background-attachment: fixed; */
-  /* background-position: center; */
-  /* background-size: cover; */
+/* MAIN SECTION */
+.mainSection1 {
   background-color: #000;
 }
-.mainSection1-container {
-  height: 200px;
-  margin: 50px 0;
-  display: flex;
-  /* justify-content: center; */
-  align-content: center;
-}
-.mainSection1-container .number {
-  font-size: 45px;
-  font-weight: 600;
-  text-align: center;
-}
-.mainSection1-container .contaienr2 {
-  text-align: right;
-}
-.mainSection1-container .contaienr2 #MainNum {
-  font-size: 18px;
-  font-weight: 600;
+.mainSection1 img {
+  max-width: 100%;
 }
 
-/* MAIN GALLERY */
+/* AWARDS GALLERY */
 .mainGallery {
-  /* height: 500px; */
+  background-color: #231D1D;
 }
 .mainGallery .main-gallery-wrapper {
   display: flex;
@@ -89,15 +70,29 @@ a {
   font-size: 70px;
   color: #fff;
 }
-.mainGallery .item img {
-  width: 170px;
-  height: 170px;
-  float: right;
+.mainGallery .row {
+  margin: 0;
 }
-.mainGallery .item2 img {
-  display: block;
-  margin: 0 auto;
+.mainGallery .item {
+  width: calc(190px + 10px * 2);
+  margin: 15px 10px;
 }
+.mainGallery .item .contents-img {
+  width: 100%;
+}
+.mainGallery .item .small-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.mainGallery .item .small-wrapper .contents-hash {
+  width: 25%;
+}
+.mainGallery .item .small-wrapper .contents-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: #fff;
+}
+
 .mainGallery .gallery-btn-wrapper {
   display: flex;
   justify-content: center;
@@ -106,22 +101,6 @@ a {
   margin: 0 1px;
   background-color: rgba(0,0,0,0);
   border: none;
-}
-
-/* MAIN KEYWORD SECTION */
-.mainKeywordSection .wrapper {
-  display: flex;
-  justify-content: space-around;
-}
-.mainKeywordSection .wrapper .KeywordTitle {
-  font-weight: 700;
-  font-size: 18px;
-}
-
-.mainKeywordSection .wrapper .mainKeywordBtn1,
-.mainKeywordSection .wrapper .mainKeywordBtn2,
-.mainKeywordSection .wrapper .mainKeywordBtn3 {
-  width: 70px;
 }
 
 /* FOOTER */
@@ -155,9 +134,5 @@ a {
   display: flex;
 }
 .footer #instagram {
- /* background-color: rgba(0,0,0,0); */
- /* justify-content: right; */
- /* margin-right: auto; */
  float: right;
->>>>>>> 9edb70c0e318672d007c1c215f783c2cfbd5bf13
 }
