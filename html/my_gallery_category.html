@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PAGE</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+    <!-- GOOGLE ICON -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+
+    <!-- RESET CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
+
+    <link rel="stylesheet" href="/./css/my_profile.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <ul class="nav justify-content-center pt-1 pb-1" style="background-color:black;">
+        <li class="nav-item">
+            <a class="nav-link" id="btnLogo" aria-current="page" href="#">
+                <img src="/./img/Logo.png" alt="Let's Slip" />
+            </a>
+        </li>
+        <li class="nav-item aboutus">
+            <a class="nav-link" id="toAboutUs" href="#">
+                <img src="/./img/Btn_toAboutUs.png" alt="" />
+            </a>
+        </li>
+        <div class="inputWrapper">
+            <input class="form-control me-2" type="search" placeholder="다양한 Slip을 검색하며 실패를 즐기세요!" aria-label="Search" />
+            <button class="material-icons btnSearch" type="submit">search</button>
+        </div>
+        <li class="nav-item">
+            <a class="mt-1 nav-link" id="btnToMainPage" href="#">
+                <img src="/./img/Btn_toMainPage.png" alt="" />
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="mt-1 nav-link" id="btnToMyGallery" href="#">
+                <img src="/./img/Btn_toMyGalleryRainbow.png" alt="" />
+            </a>
+        </li>
+    </ul>
+
+    <!-- MY PAGE MAIN SECTION -->
+    <section class="myProfile w-50 m-auto mt-5">
+        <div class="myProfileDetail">
+            <div>
+                <img class="profileImg" src="../img/MyProfileImg.png">
+                <div class="profileText m-5">
+                    <p class="galleryTitle">Susan’s Slip Gallery</p>
+                    <p class="mt-3">Hi Susan</p>
+                    <p class="mt-3">Slip 17 times</p>
+                    <p class="mt-4">“It does not matter how slowly you<br>
+                        go as long as you do not stop”</p>
+                    <div class="profileBtn mt-4">
+                        <span><img class="profileBtn1" src="../img/Btn_UploadPhoto.png"></span>
+                        <span><img class="profileBtn1" src="../img/Btn_Modify.png"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="slipTime">
+        <span class="slipTimeText">Slip Timeline</span>
+        <span><img class="w-50" src="../img/Timeline.png"></span>
+    </div>
+    
+    <!-- NAV SECTION -->
+    <section class="myGallery w-70 m-3">
+        <ul class="nav mx-5">
+            <li class="nav-item mx-3">
+                <a class="nav-link" href="#">갤러리</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link" href="#">팔로잉</a>
+            </li>
+            <li class="nav-item mx-3">
+                <a class="nav-link" href="#">스크랩</a>
+            </li>
+        </ul>
+    </section>
+    
+    <section class="mainGallery w-50 m-auto">
+        <div class="row mt-3">
+            <div class="col item">
+                <img src="../img/Default.png">
+            </div>
+            <div class="col item">
+                <div class="col item">
+                    <img src="../img/userGalleryPhoto1.png">
+                </div>
+            </div>
+            <div class="col item">
+                <div class="col item">
+                    <img src="../img/userGalleryPhoto2.png">
+                </div>
+            </div>
+          </div>
+        </section>
+        <section class="mainGallery w-50 m-auto">
+            <div class="row mt-3">
+                <div class="col item">
+                    <img src="../img/userGalleryPhoto.png">
+                    <div class="row">
+                        <div class="col item2">
+                            <span><img class="col-3" src="../img/Tag_Com.png">
+                            <p class="col-9">내 미래도 저무는 중</p></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col item">
+                    <div class="col item">
+                        <img src="../img/userGalleryPhoto.png">
+                    </div>
+                </div>
+                <div class="col item">
+                    <div class="col item">
+                        <img src="../img/userGalleryPhoto.png">
+                    </div>
+                </div>
+              </div>
+              
+              
+            </section>
+
+        <div class="gallery-btn-wrapper">
+            <!-- 페이지 인덱스에 따라 pagination 이미지 수정 -> js로 처리 -->
+            <button class="gallery-page-1">
+                <img src="../img/Btn_GalleryPaginationActice (2).png" alt="" />
+            </button>
+            <button class="gallery-page-2">
+                <img src="../img/Btn_GalleryPaginationDisabled (2).png" alt="" />
+            </button>
+            <button class="gallery-page-3">
+                <img src="../img/Btn_GalleryPaginationDisabled (2).png" alt="" />
+            </button>
+        </div>
+    </section>
+
+</body>
+
+</html>

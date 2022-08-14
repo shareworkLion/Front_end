@@ -1,0 +1,132 @@
+/* COMMON */
+body {
+    line-height: 1.4;
+  }
+  a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  /* INNER */
+  .inner {
+    width: 900px;
+    margin: 0 auto;
+    /* position: relative; */
+  }
+  
+  /* HEADER */
+  .nav #toAboutUs {
+    visibility: hidden;
+  }
+  .nav .inputWrapper {
+    position: relative;
+    width: 420px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: #fff;
+    margin: 10px 30px;
+  }
+  .nav .inputWrapper input[type="search"] {
+    width: 80%;
+    height: 100%;
+    border: none;
+    font-size: 16px;
+    margin-left: 5%;
+  }
+  .nav .inputWrapper .btnSearch {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+    background-color: rgba(0,0,0,0);
+    border: none;
+  }
+  
+  /* MY PAGE MAIN SECTION */
+  .myProfile {
+    margin-top: 30px;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+
+  .profileImg {
+    float: left;
+  }
+  
+  .profileText{
+    float: right;
+  }
+
+  .galleryTitle{
+    font-weight: bold;
+  }
+
+  .profileBtn {
+    float: right;
+    
+  }
+   .profileBtn1{
+    width: 30px;
+   }
+
+  .slipTime{
+    clear: right;
+    background-color:#000;
+    height: 100px;
+    padding-top: 40px;
+    text-align: center;
+  }
+
+  .slipTimeText {
+    color: white;
+    font-weight: bold;
+    margin-right: 40px;
+  }
+
+  .nav-link {
+    color: #000;
+  }
+  .nav-link:hover{
+    color: #000;
+    font-weight: bold;
+  }
+  .nav-link:focus{
+    color: #000;
+    font-weight: bold;
+    
+  }
+  span{
+    vertical-align: middle;
+  }
+
+  .reulstTitle2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .mainGallery {
+    display: flex;
+    justify-content: center;
+  }
+ 
+  .mainGallery .item img {
+    width: 90%;
+    min-width: 80px;
+    max-width: 200px;
+    height: auto;
+  }
+  
+  .mainGallery .item2 img {
+    min-width: 10px;
+    max-width: 30%;
+    height: auto;
+
+  }
+
+  .mainGallery .item2 p {
+    text-align: center;
+    font-weight: bold;
+    font-size: min(1vw, 15px);
+  }
+  
