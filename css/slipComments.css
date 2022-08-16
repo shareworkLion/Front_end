@@ -1,6 +1,7 @@
 /* COMMON */
 body {
   line-height: 1.4;
+  font-family: "Noto Sans KR", sans-serif;
 }
 a {
   text-decoration: none;
@@ -149,10 +150,12 @@ button {
   display: flex;
 }
 .slipComments .comments-container2 img {
+  width: 40px;
+  height: 40px;
   display: block;
-  /* height: 100%; */
   border-radius: 50%;
   box-shadow: 0 5px 18px -7px rgba(0, 0, 0, 1);
+  margin-top: auto;
 }
 .slipComments .comments-container2 .comments-container2-wrapper {
   display: flex;
@@ -192,7 +195,7 @@ button {
 }
 .nestedreply-wrapper .nestIcon {
   color: #676565;
-  opacity: .5;
+  opacity: 0.5;
   margin: auto 20px;
   font-size: 40px;
   font-weight: 700;

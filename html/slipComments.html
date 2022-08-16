@@ -1,3 +1,5 @@
+<!-- 감상평 작성 화면_1. Slip만 작성된 글/2. 성공기도 작성한 경우
+답글 작성 화면_1. Slip만 작성된 글/2. 성공기도 작성한 경우 -->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -24,6 +26,14 @@
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
 
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- RESET CSS -->
     <link
       rel="stylesheet"
@@ -37,7 +47,12 @@
     <!-- HEADER -->
     <ul class="nav justify-content-center pt-1 pb-1">
       <li class="nav-item">
-        <a class="nav-link" id="btnLogo" aria-current="page" href="../index.html">
+        <a
+          class="nav-link"
+          id="btnLogo"
+          aria-current="page"
+          href="../index.html"
+        >
           <img src="../img/Logo.png" alt="Let's Slip" />
         </a>
       </li>
@@ -271,7 +286,9 @@
           <!-- 대댓글 달기 -->
           <section class="nestedReply">
             <div class="nestedreply-wrapper">
-              <div class="material-icons nestIcon">subdirectory_arrow_right</div>
+              <div class="material-icons nestIcon">
+                subdirectory_arrow_right
+              </div>
               <form class="nestedReply" action="">
                 <textarea
                   name="comments"
@@ -280,7 +297,12 @@
                   rows="5"
                   placeholder="Sliper가 작성한 감상평에 답글을 적어 주세요"
                 ></textarea>
-                <input type="image" src="../img/Button/Btn_CommentsUpload.png" name="btnWrtieComment" id="">
+                <input
+                  type="image"
+                  src="../img/Button/Btn_CommentsUpload.png"
+                  name="btnWrtieComment"
+                  id=""
+                />
               </form>
             </div>
           </section>
@@ -306,7 +328,6 @@
       <hr />
 
       <!-- 감상평 적기 -->
-      <!-- form 형식 다시 작성 -->
       <section class="mt-4 createComments">
         <div class="create-comments-wrapper">
           <form class="writeComments" action="">
@@ -317,11 +338,15 @@
               rows="5"
               placeholder="Slip 작품에 대한 감상평을 적어 주세요"
             ></textarea>
-            <input type="image" src="../img/Button/Btn_CommentsUpload.png" name="btnWrtieComment" id="">
+            <input
+              type="image"
+              src="../img/Button/Btn_CommentsUpload.png"
+              name="btnWrtieComment"
+              id=""
+            />
           </form>
         </div>
       </section>
     </div>
-    
   </body>
 </html>
