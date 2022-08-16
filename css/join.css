@@ -1,6 +1,7 @@
 html,
 body {
   height: 100%;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 body {
@@ -27,6 +28,8 @@ body {
   border-image:  linear-gradient(90deg, red, orange, yellow, green, rgb(52, 140, 255), rgb(43, 43, 255), purple);
   border-image-slice: 1;
 }
+
+
 
 .LoginBtn {
   height: 60px;

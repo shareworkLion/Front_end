@@ -1,4 +1,4 @@
-<!--유저 갤러리 화면 1_1 갤러리 카테고리-->
+<!--유저 갤러리 화면 1_2 프로필 편집하기-->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,7 +28,7 @@
     <!-- RESET CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css" />
 
-    <link rel="stylesheet" href="/./css/my_profile.css">
+    <link rel="stylesheet" href="/./css/my_profile4.css">
 </head>
 
 <body>
@@ -82,14 +82,14 @@
             <div>
                 <img class="profileImg" src="../img/MyProfileImg.png">
                 <div class="profileText m-5">
-                    <p class="galleryTitle">Susan’s Slip Gallery</p>
-                    <p class="mt-3">Hi Susan</p>
-                    <p class="mt-3">Slip 17 times</p>
-                    <p class="mt-4">“It does not matter how slowly you<br>
-                        go as long as you do not stop”</p>
+                    <form action="" method="">
+                        <input type="text" class="galleryTitle" name="userName" placeholder="Susan’s Slip Gallery"><br>
+                        <input type="text" class="mt-3 w-100" name="userName" placeholder="Hi Susan">
+                        <p class="mt-3">Slip 17 times</p>
+                        <textarea class="mt-3 w-100" name="myDetail" placeholder="It does not matter how slowly you go as long as you do not stop"></textarea>
+                    </form>
                     <div class="profileBtn mt-4">
                         <span><img class="profileBtn1" src="../img/Button/Btn_UploadPhoto.png"></span>
-                        <span><img class="profileBtn1" src="../img/Button/Btn_Modify.png"></span>
                     </div>
                 </div>
             </div>

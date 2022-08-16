@@ -5,6 +5,7 @@ body {
   padding-top: 40px;
   padding-bottom: 40px;
   background-color: black;
+  font-family: "Noto Sans KR", sans-serif;
 }
 
 .input-group {
@@ -12,34 +13,31 @@ body {
   margin: auto;
 }
 
+.input-group input:focus{
+  background-color: #000;
+  color:white;
+}
+
+.input-group {
+  position: relative;
+  width: 70%;
+  height: 40px;
+  background-color: #fff;
+  margin: auto;
+}
+.input-group input[type="search"] {
+  width: 80%;
+  height: 100%;
+  border: none;
+  font-size: 16px;
+  margin-left: 5%;
+  font-weight: bolder;
+}
+
+
 .form-control {
     border:transparent;
     border-radius: 0%;
     border-bottom: 1px solid white;
     background-color: black;
 }
-
-.nav .inputWrapper {
-    position: relative;
-    width: 420px;
-    height: 36px;
-    border-radius: 36px;
-    background-color: #fff;
-    margin: 10px 30px;
-  }
-
-  .nav .inputWrapper {
-    position: relative;
-    width: 420px;
-    height: 36px;
-    border-radius: 36px;
-    background-color: #fff;
-    margin: 10px 30px;
-  }
-  
-  .nav .inputWrapper .hello {
-    position: absolute;
-    right: 5%;
-    top: 20%;
-    color: white;
-  }
