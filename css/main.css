@@ -73,29 +73,38 @@ a {
 
 /* MAIN GALLERY */
 .mainGallery {
-  /* height: 500px; */
+  background-color: #000;
 }
 .mainGallery .main-gallery-wrapper {
   display: flex;
   justify-content: center;
 }
+.mainGallery .material-icons {
+  /* margin: 0 1px; */
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+.mainGallery .arrow-wrapper {
+  display: table;
+}
 .mainGallery .btnForward,
 .mainGallery .btnNext {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 0 20px;
   font-size: 70px;
   color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+}
+.mainGallery .btnForward:hover,
+.mainGallery .btnNext:hover {
+  cursor: pointer;
 }
 .mainGallery .item img {
   width: 170px;
   height: 170px;
   float: right;
-}
-.mainGallery .item2 img {
-  display: block;
-  margin: 0 auto;
+  margin-top: 12px;
+  margin-bottom: 12px;
 }
 .mainGallery .gallery-btn-wrapper {
   display: flex;

@@ -142,11 +142,9 @@ button {
   margin: 0 auto;
 }
 .slipComments .comments-container1 {
-  background-color: aquamarine;
   display: flex;
 }
 .slipComments .comments-container2 {
-  background-color: salmon;
   height: 50px;
   display: flex;
 }
@@ -161,15 +159,12 @@ button {
   margin: auto 0;
 }
 .slipComments .comments-container3 {
-  background-color: lightblue;
 }
 .slipComments .comments-container4 {
-  background-color: lightpink;
   display: flex;
   justify-content: right;
 }
 .slipComments .comments-container5 {
-  background-color: sandybrown;
   display: flex;
   justify-content: center;
 }
@@ -179,12 +174,6 @@ button {
 }
 .slipComments .comments-container5 a:active {
   color: #000;
-}
-.hello textarea {
-  width: 100%;
-  border-radius: 5px;
-  margin-top: 15px;
-  margin-bottom: 10px;
 }
 
 .createComments .create-comments-wrapper {
@@ -196,53 +185,38 @@ button {
   justify-content: right;
 }
 .nestedreply-wrapper {
-  background-color: darkolivegreen;
   width: 80%;
   display: flex;
-}
-.nestedreply-wrapper {
   justify-content: right;
   margin-left: auto;
 }
-.nestedreply-wrapper .textarea {
-  width: 85%;
+.nestedreply-wrapper .nestIcon {
+  color: #676565;
+  opacity: .5;
+  margin: auto 20px;
+  font-size: 40px;
+  font-weight: 700;
 }
-
-/* FOOTER */
-.footer {
-  background-color: #000;
-  color: #fff;
-  height: 200px;
-  padding: 30px 0;
+.nestedreply-wrapper form {
+  flex-grow: 1;
 }
-.footer .bigWrapper {
-  width: 70%;
-  margin: auto;
+.nestedreply-wrapper textarea {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
-.footer .bigWrapper hr {
-  /* width: 100%; */
-  border: 0.5px solid #fff;
-}
-.footer .smallWrapper {
-  display: flex;
-  justify-content: space-between;
-  /* margin: auto; */
-}
-.footer .container2 a {
-  margin: 10px;
-}
-.footer .container2 p {
-  margin-left: 10px;
-}
-.footer .container3 {
-  display: flex;
-}
-.footer .container3 a {
-  color: #fff;
-}
-.footer #instagram {
-  /* background-color: rgba(0,0,0,0); */
-  /* justify-content: right; */
-  /* margin-right: auto; */
+.nestedreply-wrapper input {
+  width: 42px;
   float: right;
+}
+.writeComments input {
+  width: 42px;
+  float: right;
+}
+.writeComments textarea {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-bottom: 10px;
 }

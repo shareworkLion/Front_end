@@ -37,7 +37,7 @@
     <!-- HEADER -->
     <ul class="nav justify-content-center pt-1 pb-1">
       <li class="nav-item">
-        <a class="nav-link" id="btnLogo" aria-current="page" href="#">
+        <a class="nav-link" id="btnLogo" aria-current="page" href="../index.html">
           <img src="../img/Logo.png" alt="Let's Slip" />
         </a>
       </li>
@@ -81,7 +81,7 @@
             <img id="myProfileImg" src="/./img/Main_exGalleryImg.png" alt="" />
           </div>
           <div class="small-wrapper">
-            <img src="/./img/Main_Hash.png" alt="" />
+            <img src="../img/Hash/Hash_Life.png" alt="" />
             <div class="mt-1 mb-3 mySlipTitle">내 미래도 저무는 중</div>
             <div class="p-3 table-box">
               <table class="ml-1 mr-1 table">
@@ -219,7 +219,7 @@
       <!-- 아이콘 - 좋아요, 코멘트 -->
       <div class="icon-wrapper">
         <button id="btnModify">
-          <img src="../img/Button/Btn_Comments.png" alt="" />
+          <img src="../img/Button/Btn_CommentsSmall.png" alt="" />
         </button>
         <button id="btnUploadPhoto">
           <img src="../img/Button/Btn_Likes.png" alt="" />
@@ -232,7 +232,7 @@
       <!-- 답글 보기 -->
       <section class="slipComments">
         <div class="comments-wrapper">
-          <div class="mb-4 comments-container1">
+          <div class="mb-4 mt-4 comments-container1">
             <p class="me-2" style="font-size: 22px; font-weight: 700">감상평</p>
             <p class="me-2" style="font-weight: 700">.</p>
             <div
@@ -269,10 +269,10 @@
             </button>
           </div>
           <!-- 대댓글 달기 -->
-          <section class="nestedReply bg-info">
+          <section class="nestedReply">
             <div class="nestedreply-wrapper">
-              <div class="material-icons">subdirectory_arrow_right</div>
-              <form class="hello" action="">
+              <div class="material-icons nestIcon">subdirectory_arrow_right</div>
+              <form class="nestedReply" action="">
                 <textarea
                   name="comments"
                   id="comments"
@@ -280,16 +280,12 @@
                   rows="5"
                   placeholder="Sliper가 작성한 감상평에 답글을 적어 주세요"
                 ></textarea>
+                <input type="image" src="../img/Button/Btn_CommentsUpload.png" name="btnWrtieComment" id="">
               </form>
-            </div>
-            <div class="comments-container4">
-              <button class="btnComments">
-                <img src="../img/Button/Btn_CommentsUpload.png" alt="" />
-              </button>
             </div>
           </section>
 
-          <div class="mt-2 mb-2 comments-container5">
+          <div class="mt-4 mb-4 pt-4 pb-4 comments-container5">
             <!-- pagination -->
             <div class="material-icons">arrow_back_ios</div>
             <a class="active" href="">1</a>
@@ -311,9 +307,9 @@
 
       <!-- 감상평 적기 -->
       <!-- form 형식 다시 작성 -->
-      <section class="createComments">
+      <section class="mt-4 createComments">
         <div class="create-comments-wrapper">
-          <form class="hello" action="">
+          <form class="writeComments" action="">
             <textarea
               name="comments"
               id="comments"
@@ -321,37 +317,11 @@
               rows="5"
               placeholder="Slip 작품에 대한 감상평을 적어 주세요"
             ></textarea>
+            <input type="image" src="../img/Button/Btn_CommentsUpload.png" name="btnWrtieComment" id="">
           </form>
-          <div class="comments-container4">
-            <button class="btnComments">
-              <img src="../img/Button/Btn_CommentsUpload.png" alt="" />
-            </button>
-          </div>
         </div>
       </section>
     </div>
-    <!-- FOOTER -->
-    <!-- <footer class="footer">
-      <div class="w-75 m-auto bigWrapper">
-        <div class="smallWrapper">
-          <div class="container1">
-            <img src="/./img/Logo.png" alt="." />
-            <p>실패를 전시하는 갤러리</p>
-          </div>
-          <div class="container2">
-            <div class="container3">
-              <a href="javascript:void">이용약관</a>
-              <a href="javascript:void">이용안내</a>
-              <a href="javascript:void">운영정책</a>
-            </div>
-            <p>서울시 노원구 화랑로 621</p>
-          </div>
-        </div>
-        <hr />
-        <a href="javascript:void">
-          <img id="instagram" src="../img/Button/Btn_Insta.png" alt="" />
-        </a>
-      </div>
-    </footer> -->
+    
   </body>
 </html>

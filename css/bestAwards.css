@@ -63,14 +63,20 @@ a {
   display: flex;
   justify-content: center;
 }
+.mainGallery .arrow-wrapper {
+  display: table;
+}
 .mainGallery .btnForward,
 .mainGallery .btnNext {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding: 0 20px;
   font-size: 70px;
   color: #fff;
+  display: table-cell;
+  vertical-align: middle;
+}
+.mainGallery .btnForward:hover,
+.mainGallery .btnNext:hover {
+  cursor: pointer;
 }
 .mainGallery .row {
   margin: 0;

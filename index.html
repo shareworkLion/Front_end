@@ -33,17 +33,19 @@
     <title>MAIN PAGE</title>
 
     <link rel="stylesheet" href="./css/main.css" />
+    <script defer src="./js/test.js"></script>
+
   </head>
   <body>
     <!-- HEADER -->
     <ul class="nav justify-content-center pt-1 pb-1">
       <li class="nav-item">
-        <a class="nav-link" id="btnLogo" aria-current="page" href="#">
+        <a class="nav-link" id="btnLogo" aria-current="page" href="./index.html">
           <img src="../img/Logo.png" alt="Let's Slip" />
         </a>
       </li>
       <li class="nav-item aboutus">
-        <a class="nav-link" id="toAboutUs" href="#">
+        <a class="nav-link" id="toAboutUs" href="./html/aboutUs.html">
           <img src="../img/Button/Btn_toAboutUs.png" alt="" />
         </a>
       </li>
@@ -54,15 +56,15 @@
           placeholder="다양한 Slip을 검색하며 실패를 즐기세요!"
           aria-label="Search"
         />
-        <button class="material-icons btnSearch" type="submit">search</button>
+        <button class="material-icons btnSearch" type="submit" onclick="wow()">search</button>
       </div>
       <li class="nav-item">
-        <a class="mt-1 nav-link" id="btnToMyGalleryRainbow" href="#">
+        <a class="mt-1 nav-link" id="btnToMyGalleryRainbow" href="./html/slipComments.html">
           <img src="../img/Button/Btn_toMyGallery.png" alt="" />
         </a>
       </li>
       <li class="nav-item">
-        <a class="mt-1 nav-link" id="btnOpenGallery" href="#">
+        <a class="mt-1 nav-link" id="btnOpenGallery" href="./html/myPage1.html">
           <img src="../img/Button/Btn_openGallery.png" alt="" />
         </a>
       </li>
@@ -83,36 +85,52 @@
     </section>
 
     <!-- MAIN GALLERY -->
-    <section class="mainGallery bg-dark p-3">
+    <section class="mainGallery p-3">
       <div class="inner main-gallery-wrapper">
-        <div class="material-icons btnForward">arrow_back_ios_new</div>
+        <div class="arrow-wrapper">
+          <div class="material-icons btnForward" onclick="arraowClick()">arrow_back_ios_new</div>
+        </div>
         <div class="img-wrapper">
-          <div class="row pt-5">
-            <div class="col-sm m-2 item item1">
-              <img src="./img/Main_exGalleryImg.png" alt="" />
+          <div class="mt-4 row">
+            <div class="col item">
+              <a href="./html/slipComments.html">
+                <img class="main-contents-img" src="./img/Main_exGalleryImg.png" alt="" />
+              </a>
             </div>
-            <div class="col-sm m-2 item item2">
-              <img src="./img/Main_exGalleryImg.png" alt="" />
+            <div class="col item">
+              <a href="./html/slipComments.html">
+                <img class="main-contents-img"  src="./img/Main_exGalleryImg.png" alt="" />
+              </a>
             </div>
-            <div class="col-sm m-2 item item3">
-              <img src="./img/Main_exGalleryImg.png" alt="" />
+            <div class="col item">
+              <a href="./html/slipComments.html">
+                <img class="main-contents-img"  src="./img/Main_exGalleryImg.png" alt="" />
+              </a>
             </div>
           </div>
-          <div class="row pb-5">
-            <div class="col-sm m-2 item item1">
-              <img src="./img/Main_exGalleryImg.png" alt="" />
+          <div class="mb-4 row">
+            <div class="col item">
+              <a href="./html/slipComments.html">
+                <img class="main-contents-img"  src="./img/Main_exGalleryImg.png" alt="" />
+              </a>
             </div>
-            <div class="col-sm m-2 item item2">
-              <img src="./img/Main_exGalleryImg.png" alt="" />
+            <div class="col item">
+              <a href="./html/slipComments.html">
+                <img class="main-contents-img"  src="./img/Main_exGalleryImg.png" alt="" />
+              </a>
             </div>
-            <div class="col-sm m-2 item item3">
-              <img src="./img/Main_exGalleryImg.png" alt="" />
+            <div class="col item">
+              <a href="./html/slipComments.html">
+                <img class="main-contents-img"  src="./img/Main_exGalleryImg.png" alt="" />
+              </a>
             </div>
           </div>
         </div>
-        <div class="material-icons btnNext">arrow_forward_ios</div>
+        <div class="arrow-wrapper">
+          <div class="material-icons btnNext" onclick="arraowClick()">arrow_forward_ios</div>
+        </div>
       </div>
-      <div class="gallery-btn-wrapper">
+      <div class="mb-4 gallery-btn-wrapper">
         <!-- 페이지 인덱스에 따라 pagination 이미지 수정 -> js로 처리 -->
         <button class="gallery-page-1">
           <img src="../img/Button/Btn_GalleryPaginationActice.png" alt="" />
@@ -135,9 +153,9 @@
             <p>현재 가장 많이 사용되는 Slip Keyword를 확인하세요</p>
           </div>
           <div class="container2">
-            <img class="mainKeywordBtn1" src="../img/Main_Hash.png" alt="" />
-            <img class="mainKeywordBtn2" src="../img/Main_Hash.png" alt="" />
-            <img class="mainKeywordBtn3" src="../img/Main_Hash.png" alt="" />
+            <img class="mainKeywordBtn1" src="./img/Hash/Hash_Exam.png" alt="" />
+            <img class="mainKeywordBtn2" src="./img/Hash/Hash_Job.png" alt="" />
+            <img class="mainKeywordBtn3" src="./img/Hash/Hash_Study.png" alt="" />
           </div>
         </div>
       </div>
@@ -166,5 +184,6 @@
         </a>
       </div>
     </footer>
+
   </body>
 </html>

@@ -33,12 +33,13 @@
     <title>BEST SLIP AWARDS</title>
 
     <link rel="stylesheet" href="../css/bestAwards.css" />
+    <script src="../js/test.js"></script>
   </head>
   <body>
     <!-- HEADER -->
     <ul class="nav justify-content-center pt-1 pb-1">
       <li class="nav-item">
-        <a class="nav-link" id="btnLogo" aria-current="page" href="#">
+        <a class="nav-link" id="btnLogo" aria-current="page" href="../index.html">
           <img src="../img/Logo.png" alt="Let's Slip" />
         </a>
       </li>
@@ -57,13 +58,13 @@
         <button class="material-icons btnSearch" type="submit">search</button>
       </div>
       <li class="nav-item">
-        <a class="mt-1 nav-link" id="btnToMyGalleryRainbow" href="#">
-          <img src="../img/Button/Btn_toMyGallery.png" alt="" />
+        <a class="mt-1 nav-link" id="btnOpenGallery" href="../index.html">
+          <img src="../img/Button/Btn_toMainPage.png" alt="" />
         </a>
       </li>
       <li class="nav-item">
-        <a class="mt-1 nav-link" id="btnOpenGallery" href="#">
-          <img src="../img/Button/Btn_openGallery.png" alt="" />
+        <a class="mt-1 nav-link" id="btnToMyGalleryRainbow" href="#">
+          <img src="../img/Button/Btn_toMyGalleryRainbow.png" alt="" />
         </a>
       </li>
     </ul>
@@ -76,15 +77,21 @@
     <!--AWARDS GALLERY -->
     <section class="mainGallery p-3">
       <div class="inner main-gallery-wrapper">
-        <div class="material-icons btnForward">arrow_back_ios_new</div>
+        <div class="arrow-wrapper">
+          <div class="material-icons btnForward" onclick="arraowClick()">
+            arrow_back_ios_new
+          </div>
+        </div>
         <div class="mt-4 img-wrapper">
           <div class="row">
             <div class="col item">
-              <img
-                class="contents-img"
-                src="../img/Main_exGalleryImg.png"
-                alt=""
-              />
+              <a href="./slipComments.html">
+                <img
+                  class="contents-img"
+                  src="../img/Main_exGalleryImg.png"
+                  alt=""
+                />
+              </a>
               <div class="small-wrapper">
                 <img
                   class="contents-hash"
@@ -95,11 +102,13 @@
               </div>
             </div>
             <div class="col item">
-              <img
-                class="contents-img"
-                src="../img/Main_exGalleryImg.png"
-                alt=""
-              />
+              <a href="./slipComments.html">
+                <img
+                  class="contents-img"
+                  src="../img/Main_exGalleryImg.png"
+                  alt=""
+                />
+              </a>
               <div class="small-wrapper">
                 <img
                   class="contents-hash"
@@ -110,58 +119,13 @@
               </div>
             </div>
             <div class="col item">
-              <img
-                class="contents-img"
-                src="../img/Main_exGalleryImg.png"
-                alt=""
-              />
-              <div class="small-wrapper">
+              <a href="./slipComments.html">
                 <img
-                  class="contents-hash"
-                  src="../img/Awards_Hash_Life.png"
+                  class="contents-img"
+                  src="../img/Main_exGalleryImg.png"
                   alt=""
                 />
-                <div class="contents-title">내 미래도 저무는 중</div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col item">
-              <img
-                class="contents-img"
-                src="../img/Main_exGalleryImg.png"
-                alt=""
-              />
-              <div class="small-wrapper">
-                <img
-                  class="contents-hash"
-                  src="../img/Awards_Hash_Life.png"
-                  alt=""
-                />
-                <div class="contents-title">내 미래도 저무는 중</div>
-              </div>
-            </div>
-            <div class="col item">
-              <img
-                class="contents-img"
-                src="../img/Main_exGalleryImg.png"
-                alt=""
-              />
-              <div class="small-wrapper">
-                <img
-                  class="contents-hash"
-                  src="../img/Awards_Hash_Life.png"
-                  alt=""
-                />
-                <div class="contents-title">내 미래도 저무는 중</div>
-              </div>
-            </div>
-            <div class="col item">
-              <img
-                class="contents-img"
-                src="../img/Main_exGalleryImg.png"
-                alt=""
-              />
+              </a>
               <div class="small-wrapper">
                 <img
                   class="contents-hash"
@@ -174,11 +138,13 @@
           </div>
           <div class="row">
             <div class="col item">
-              <img
-                class="contents-img"
-                src="../img/Main_exGalleryImg.png"
-                alt=""
-              />
+              <a href="./slipComments.html">
+                <img
+                  class="contents-img"
+                  src="../img/Main_exGalleryImg.png"
+                  alt=""
+                />
+              </a>
               <div class="small-wrapper">
                 <img
                   class="contents-hash"
@@ -189,11 +155,13 @@
               </div>
             </div>
             <div class="col item">
-              <img
-                class="contents-img"
-                src="../img/Main_exGalleryImg.png"
-                alt=""
-              />
+              <a href="./slipComments.html">
+                <img
+                  class="contents-img"
+                  src="../img/Main_exGalleryImg.png"
+                  alt=""
+                />
+              </a>
               <div class="small-wrapper">
                 <img
                   class="contents-hash"
@@ -204,11 +172,66 @@
               </div>
             </div>
             <div class="col item">
+              <a href="./slipComments.html">
               <img
                 class="contents-img"
                 src="../img/Main_exGalleryImg.png"
                 alt=""
               />
+            </a>
+              <div class="small-wrapper">
+                <img
+                  class="contents-hash"
+                  src="../img/Awards_Hash_Life.png"
+                  alt=""
+                />
+                <div class="contents-title">내 미래도 저무는 중</div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col item">
+              <a href="./slipComments.html">
+              <img
+                class="contents-img"
+                src="../img/Main_exGalleryImg.png"
+                alt=""
+              />
+            </a>
+              <div class="small-wrapper">
+                <img
+                  class="contents-hash"
+                  src="../img/Awards_Hash_Life.png"
+                  alt=""
+                />
+                <div class="contents-title">내 미래도 저무는 중</div>
+              </div>
+            </div>
+            <div class="col item">
+              <a href="./slipComments.html">
+              <img
+                class="contents-img"
+                src="../img/Main_exGalleryImg.png"
+                alt=""
+              />
+            </a>
+              <div class="small-wrapper">
+                <img
+                  class="contents-hash"
+                  src="../img/Awards_Hash_Life.png"
+                  alt=""
+                />
+                <div class="contents-title">내 미래도 저무는 중</div>
+              </div>
+            </div>
+            <div class="col item">
+              <a href="./slipComments.html">
+              <img
+                class="contents-img"
+                src="../img/Main_exGalleryImg.png"
+                alt=""
+              />
+            </a>
               <div class="small-wrapper">
                 <img
                   class="contents-hash"
@@ -220,7 +243,11 @@
             </div>
           </div>
         </div>
-        <div class="material-icons btnNext">arrow_forward_ios</div>
+        <div class="arrow-wrapper">
+          <div class="material-icons btnNext" onclick="arraowClick()">
+            arrow_forward_ios
+          </div>
+        </div>
       </div>
       <div class="mt-5 mb-5 gallery-btn-wrapper">
         <!-- 페이지 인덱스에 따라 pagination 이미지 수정 -> js로 처리 -->
