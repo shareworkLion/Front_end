@@ -21,7 +21,7 @@
 - /html/mySlip.html
 - /css/mySlip.css
 
-## slip comments [수정중]
+## slip page 댓글/대댓글
 
 - /html/slipComments.html
 - /css/slipComments.css
@@ -55,7 +55,7 @@
 
 ## 회원가입 페이지
 
-### 기타 (마지막에 수정할 예정)
+### 기타 (수정 완료)
 
 - /html/header.html
 - /html/footer.html

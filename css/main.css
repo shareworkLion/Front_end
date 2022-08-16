@@ -14,6 +14,7 @@ a {
   /* position: relative; */
 }
 
+/* HEADER */
 .nav {
   background-color: #000;
 }
@@ -41,16 +42,14 @@ a {
   position: absolute;
   right: 5%;
   top: 20%;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   border: none;
 }
 
+/* MAIN SECTION1 */
 .mainSection1 img {
   max-width: 100%;
-  /* background-attachment: fixed; */
-  /* background-position: center; */
-  /* background-size: cover; */
-  background-color: #000;
+  margin: -3px auto;
 }
 .mainSection1-container {
   height: 200px;
@@ -83,7 +82,7 @@ a {
 .mainGallery .btnForward,
 .mainGallery .btnNext {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   padding: 0 20px;
   font-size: 70px;
@@ -104,7 +103,7 @@ a {
 }
 .mainGallery .gallery-btn-wrapper button {
   margin: 0 1px;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   border: none;
 }
 
@@ -126,9 +125,9 @@ a {
 
 /* FOOTER */
 .footer {
+  background-color: #000;
   color: #fff;
   height: 200px;
-  padding: 20px;
   padding: 30px 0;
 }
 .footer .bigWrapper {
@@ -137,7 +136,7 @@ a {
 }
 .footer .bigWrapper hr {
   /* width: 100%; */
-  border: .5px solid #fff;
+  border: 0.5px solid #fff;
 }
 .footer .smallWrapper {
   display: flex;
@@ -145,7 +144,6 @@ a {
   /* margin: auto; */
 }
 .footer .container2 a {
-  display: block;
   margin: 10px;
 }
 .footer .container2 p {
@@ -154,10 +152,9 @@ a {
 .footer .container3 {
   display: flex;
 }
+.footer .container3 a {
+  color: #fff;
+}
 .footer #instagram {
- /* background-color: rgba(0,0,0,0); */
- /* justify-content: right; */
- /* margin-right: auto; */
- float: right;
->>>>>>> 9edb70c0e318672d007c1c215f783c2cfbd5bf13
+  float: right;
 }

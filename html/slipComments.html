@@ -35,14 +35,14 @@
   </head>
   <body>
     <!-- HEADER -->
-    <ul class="nav justify-content-center bg-dark pt-1 pb-1">
+    <ul class="nav justify-content-center pt-1 pb-1">
       <li class="nav-item">
         <a class="nav-link" id="btnLogo" aria-current="page" href="#">
           <img src="../img/Logo.png" alt="Let's Slip" />
         </a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link bg-info" id="toAboutUs" href="#">
+      <li class="nav-item aboutus">
+        <a class="nav-link" id="toAboutUs" href="#">
           <img src="../img/Button/Btn_toAboutUs.png" alt="" />
         </a>
       </li>
@@ -56,21 +56,21 @@
         <button class="material-icons btnSearch" type="submit">search</button>
       </div>
       <li class="nav-item">
-        <a class="nav-link" id="btnToMyGallery" href="#">
+        <a class="mt-1 nav-link" id="btnToMyGalleryRainbow" href="#">
           <img src="../img/Button/Btn_toMyGallery.png" alt="" />
         </a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" id="btnOpenGallery" href="#">
+        <a class="mt-1 nav-link" id="btnOpenGallery" href="#">
           <img src="../img/Button/Btn_openGallery.png" alt="" />
         </a>
       </li>
     </ul>
 
-    <div class="inner">
+    <div class="pb-5 inner">
       <!-- 목록으로 -->
       <button class="m-4 backBtn">
-        <span class="material-icons">arrow_back</span>
+        <span class="material-icons">arrow_back_ios</span>
         <div>목록으로</div>
       </button>
 
@@ -229,21 +229,32 @@
       <!-- 구분선 -->
       <hr />
 
-      <!-- COMMENTS SECTION -->
+      <!-- 답글 보기 -->
       <section class="slipComments">
         <div class="comments-wrapper">
-          <div class="comments-container1">
-            <p>감상평</p>
-            <img src="" alt="" />
-            <div class="comments-num">87</div>
+          <div class="mb-4 comments-container1">
+            <p class="me-2" style="font-size: 22px; font-weight: 700">감상평</p>
+            <p class="me-2" style="font-weight: 700">.</p>
+            <div
+              class="ms-2 comments-num"
+              style="font-size: 22px; font-weight: 700"
+            >
+              87
+            </div>
           </div>
-          <div class="comments-container2">
-            <img src="../img/Comments_Profile.png" alt="" />
-            <div class="comments-username">Troye</div>
-            <p>|</p>
-            <div class="commentsDate">2022.08.06</div>
+          <div class="ps-2 mb-3 comments-container2">
+            <img
+              class="me-3 comments-userimg"
+              src="../img/Comments_Profile.png"
+              alt=""
+            />
+            <div class="comments-container2-wrapper">
+              <div class="me-4 comments-username">Troye</div>
+              <p class="me-3" style="color: #676565">|</p>
+              <div class="comments-date" style="color: #676565">2022.08.06</div>
+            </div>
           </div>
-          <div class="comments-container3">
+          <div class="mb-2 comments-container3">
             <div class="comments-contents">
               <p>
                 실수를 하고 정말 당황스러우셨을 텐데 이유를 찾고 나아지기 위해
@@ -252,15 +263,36 @@
               </p>
             </div>
           </div>
-          <div class="comments-container4">
+          <div class="mb-3 comments-container4">
             <button class="btnComments">
               <img src="../img/Button/Btn_Comments.png" alt="" />
             </button>
           </div>
-          <div class="comments-container5">
+          <!-- 대댓글 달기 -->
+          <section class="nestedReply bg-info">
+            <div class="nestedreply-wrapper">
+              <div class="material-icons">subdirectory_arrow_right</div>
+              <form class="hello" action="">
+                <textarea
+                  name="comments"
+                  id="comments"
+                  cols="30"
+                  rows="5"
+                  placeholder="Sliper가 작성한 감상평에 답글을 적어 주세요"
+                ></textarea>
+              </form>
+            </div>
+            <div class="comments-container4">
+              <button class="btnComments">
+                <img src="../img/Button/Btn_CommentsUpload.png" alt="" />
+              </button>
+            </div>
+          </section>
+
+          <div class="mt-2 mb-2 comments-container5">
             <!-- pagination -->
-            <div class="material-icons">arrow_back</div>
-            <a href="">1</a>
+            <div class="material-icons">arrow_back_ios</div>
+            <a class="active" href="">1</a>
             <a href="">2</a>
             <a href="">3</a>
             <a href="">4</a>
@@ -270,18 +302,36 @@
             <a href="">8</a>
             <a href="">9</a>
             <a href="">10</a>
-            <div class="material-icons">arrow_forward</div>
+            <div class="material-icons">arrow_forward_ios</div>
           </div>
+        </div>
+      </section>
 
-          <hr />
+      <hr />
 
-          <!-- 감상평 적기 -->
+      <!-- 감상평 적기 -->
+      <!-- form 형식 다시 작성 -->
+      <section class="createComments">
+        <div class="create-comments-wrapper">
+          <form class="hello" action="">
+            <textarea
+              name="comments"
+              id="comments"
+              cols="30"
+              rows="5"
+              placeholder="Slip 작품에 대한 감상평을 적어 주세요"
+            ></textarea>
+          </form>
+          <div class="comments-container4">
+            <button class="btnComments">
+              <img src="../img/Button/Btn_CommentsUpload.png" alt="" />
+            </button>
+          </div>
         </div>
       </section>
     </div>
-
     <!-- FOOTER -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="w-75 m-auto bigWrapper">
         <div class="smallWrapper">
           <div class="container1">
@@ -302,6 +352,6 @@
           <img id="instagram" src="../img/Button/Btn_Insta.png" alt="" />
         </a>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>

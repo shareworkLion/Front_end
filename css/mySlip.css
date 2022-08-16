@@ -3,6 +3,8 @@ body {
   line-height: 1.4;
 }
 .icon-wrapper {
+  width: 80%;
+  margin: 0 auto;
   display: flex;
   justify-content: flex-end;
 }
@@ -26,6 +28,14 @@ body {
 }
 
 /* HEADER */
+.nav {
+  background-color: #000;
+}
+.nav .aboutus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .nav .inputWrapper {
   position: relative;
   width: 420px;
@@ -45,12 +55,12 @@ body {
   position: absolute;
   right: 5%;
   top: 20%;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
   border: none;
 }
-.nav #toAboutUs,
+.nav .aboutus,
 .nav .inputWrapper,
-.nav #btnToMyGallery,
+.nav #btnToMyGalleryRainbow,
 .nav #btnOpenGallery {
   visibility: hidden;
 }
@@ -59,7 +69,7 @@ body {
 .backBtn {
   display: flex;
   border: none;
-  background-color: rgba(0,0,0,0);
+  background-color: rgba(0, 0, 0, 0);
 }
 
 /* MY SLIP PROFILE */
@@ -98,9 +108,8 @@ body {
   padding-right: 15px;
 }
 
-
 /* Slip 작품 소개 */
-.introWork p, 
+.introWork p,
 .introSuccessWork p {
   font-size: 26px;
 }
