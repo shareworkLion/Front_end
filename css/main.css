@@ -85,15 +85,12 @@ a {
   background-color: rgba(0, 0, 0, 0);
   border: none;
 }
-.mainGallery .arrow-wrapper {
-  display: table;
-}
 .mainGallery .btnForward,
 .mainGallery .btnNext {
+  margin-top: calc((484px + 16px * 2) / 2 - 70px);
   padding: 0 20px;
   font-size: 70px;
   color: #fff;
-  display: table-cell;
   vertical-align: middle;
 }
 .mainGallery .btnForward:hover,

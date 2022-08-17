@@ -40,6 +40,8 @@
     />
 
     <link rel="stylesheet" href="/./css/myPage2.css" />
+    <script defer src="../js/test.js"></script>
+
   </head>
   <body>
     <!-- HEADER -->
@@ -83,7 +85,7 @@
     <!-- Change Username Section -->
     <div class="inner">
       <!-- 이전 페이지로 -->
-      <button class="m-4 backBtn">
+      <button class="m-4 backBtn" onclick="location.href='myPage1.html'">
         <span class="material-icons">arrow_back</span>
         <div>이전 페이지으로</div>
       </button>
@@ -104,13 +106,13 @@
             <input
               type="text"
               class="form-control newUID"
-              id="userid"
+              id="mypageNewId"
               name="newUID"
               placeholder="새로 활동하실 이름을 입력해주세요"
             />
             <p class="msg">더 독특한 이름을 떠올려주세요</p>
           </div>
-          <button class="changeName">
+          <button type="button" class="changeName" onclick="btnChangeName()">
             <img src="../img/Button/Btn_changeName.png" alt="" />
           </button>
         </div>

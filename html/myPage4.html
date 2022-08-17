@@ -40,6 +40,8 @@
     />
 
     <link rel="stylesheet" href="../css/myPage4.css" />
+    <script defer src="../js/test.js"></script>
+
   </head>
   <body>
     <!-- HEADER -->
@@ -78,7 +80,7 @@
     <!-- Change Password Section -->
     <div class="inner">
       <!-- 이전 페이지로 -->
-      <button class="m-4 backBtn">
+      <button class="m-4 backBtn" onclick="location.href='myPage1.html'">
         <span class="material-icons">arrow_back</span>
         <div>이전 페이지으로</div>
       </button>
@@ -98,7 +100,7 @@
             <input
               type="text"
               class="form-control"
-              name="password"
+              id="mypageCurrentPWD"
               placeholder="비밀번호를 입력해주세요"
             />
             <p class="msg">비밀번호를 다시 한번 확인해주세요</p>
@@ -113,7 +115,7 @@
             <input
               type="text"
               class="form-control"
-              name="newPassword"
+              id="mypageNewPWD"
               placeholder="새로운 비밀번호를 입력해주세요"
             />
             <p class="msg">
@@ -130,12 +132,12 @@
             <input
               type="text"
               class="form-control"
-              name="checkPassword"
+              id="mypageCheckPWD"
               placeholder="비밀번호를 다시 입력해주세요"
             />
             <p class="msg">비밀번호를 다시 확인해주세요</p>
           </div>
-          <button class="changePw">
+          <button class="changePw" onclick="changePWD()">
             <img src="../img/Button/Btn_changePw.png" alt="" />
           </button>
         </div>

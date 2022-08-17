@@ -40,7 +40,8 @@
     />
 
     <link rel="stylesheet" href="/./css/myPage3.css" />
-    <script src="../js/test.js"></script>
+    <script defer src="../js/test.js"></script>
+
   </head>
   <body>
     <!-- HEADER -->
@@ -79,7 +80,7 @@
     <!-- Change MBTI Section -->
     <div class="inner">
       <!-- 이전 페이지로 -->
-      <button class="m-4 backBtn">
+      <button class="m-4 backBtn" onclick="location.href='myPage1.html'">
         <span class="material-icons">arrow_back</span>
         <div>이전 페이지으로</div>
       </button>
@@ -93,67 +94,59 @@
           <p class="mt-5">MBTI를 선택해 주세요</p>
           <div class="mb-5 mbti-table">
             <div class="m-1 row">
-              <div class="col">
+              <div class="col mbti-I" onclick="clickedMBTI('I', 0)">
                 <img
                   src="../img/Button/MBTI/Btn_MBTI_I.png"
-                  onclick="showClickedMBTI()"
                   alt=""
                 />
               </div>
-              <div class="col">
+              <div class="col mbti-S" onclick="clickedMBTI('S', 1)">
                 <img
                   src="../img/Button/MBTI/Btn_MBTI_S.png"
-                  onclick="showClickedMBTI()"
                   alt=""
                 />
               </div>
-              <div class="col">
+              <div class="col mbti-T" onclick="clickedMBTI('T', 2)">
                 <img
                   src="../img/Button/MBTI/Btn_MBTI_T.png"
-                  onclick="showClickedMBTI()"
                   alt=""
                 />
               </div>
-              <div class="col">
+              <div class="col mbti-J" onclick="clickedMBTI('J', 3)">
                 <img
                   src="../img/Button/MBTI/Btn_MBTI_J.png"
-                  onclick="showClickedMBTI()"
                   alt=""
                 />
               </div>
             </div>
             <div class="m-1 row">
-              <div class="col">
+              <div class="col mbti-E" onclick="clickedMBTI('E', 0)">
                 <img
                   src="../img/Button/MBTI/Btn_MBTI_E.png"
-                  onclick="showClickedMBTI()"
                   alt=""
                 />
               </div>
-              <div class="col">
+              <div class="col mbti-N" onclick="clickedMBTI('N', 1)">
                 <img
                   src="../img/Button/MBTI/Btn_MBTI_N.png"
-                  onclick="showClickedMBTI()"
                   alt=""
                 />
               </div>
-              <div class="col">
+              <div class="col mbti-F" onclick="clickedMBTI('F', 2)">
                 <img
                   src="../img/Button/MBTI/Btn_MBTI_F.png"
-                  onclick="showClickedMBTI()"
                   alt=""
                 />
               </div>
-              <div class="col">
+              <div class="col mbti-P" onclick="clickedMBTI('P', 3)">
                 <img
                   src="../img/Button/MBTI/Btn_MBTI_P.png"
-                  onclick="showClickedMBTI()"
                   alt=""
                 />
               </div>
             </div>
           </div>
-          <button class="changeMBTI">
+          <button class="changeMBTI" onclick="showNewMBTI()">
             <img src="../img/Button/Btn_changeMBTI.png" alt="" />
           </button>
         </div>
