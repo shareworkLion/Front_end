@@ -1,5 +1,11 @@
 # Front_end
 
+## header / footer
+
+(js) 검색 창에 검색어 입력 후 검색 버튼 누르기/Enter 키 누르면 검색어 콘솔 창에 띄우기
+
+(back) 검색 키워드 가져가기
+
 ## main page
 
 - index.html
@@ -30,7 +36,6 @@
 - /css/mySlip.css
 
 (js) 수정 버튼 hover, 클릭 시 수정 페이지로 이동
-
 
 ## 다른 유저의 slip page + 댓글/대댓글
 
@@ -88,15 +93,13 @@
 
 (js) 폼 입력한 값 받아오기 완료
 
-[수정중]
-
-(css) 확인 메시지 안보임 처리
-
 (js) 현재 pwd 틀릴 경우 확인 메시지 띄우기
 
 (js) changePWD 조건 걸기
 
 (js) changePWD <> checkPWD인 경우 확인 메시지 띄우기
+
+(back) 현재 비밀번호 확인
 
 ## 로그인 페이지
 
@@ -114,12 +117,13 @@
 추후 페이지 추가 시 복붙하기
 
 # [이미지 파일 경로]
+
 - /img - 버튼을 제외한 이미지들
 - /img/Button - 버튼 하얀 바탕
 - /img/Button/Button_reverse - 버튼 검은 바탕
 - /img/Button_MBTI - MBTI 버튼 하얀 바탕
 - /img/Button_MBTI_RAINBOW - MBTI 버튼 무지개색 바탕
-- /img/Button/Hash  - 해시태그 검은 바탕
+- /img/Button/Hash - 해시태그 검은 바탕
 - /img/Button/Hash_White - 해시태그 하얀 바탕
 
 [추가]

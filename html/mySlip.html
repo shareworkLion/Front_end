@@ -42,7 +42,6 @@
     <title>My Slip Page</title>
     <link rel="stylesheet" href="/./css/mySlip.css" />
     <script src="../js/test.js"></script>
-
   </head>
   <body>
     <!-- HEADER -->
@@ -63,6 +62,7 @@
           type="search"
           placeholder="다양한 Slip을 검색하며 실패를 즐기세요!"
           aria-label="Search"
+          onkeypress="javascript:if(event.keyCode==13) {btnSearchClicked()}"
         />
         <button class="material-icons btnSearch" type="submit">search</button>
       </div>
@@ -122,7 +122,10 @@
           <img src="../img/Button/Button_reverse/Btn_Modify_Rev.png" alt="" />
         </button>
         <button id="btnUploadPhoto">
-          <img src="../img/Button/Button_reverse/Btn_UploadPhoto_Rev.png" alt="" />
+          <img
+            src="../img/Button/Button_reverse/Btn_UploadPhoto_Rev.png"
+            alt=""
+          />
         </button>
       </div>
 
@@ -236,8 +239,6 @@
           <img src="../img/Button/Btn_Likes.png" alt="" />
         </button>
       </div>
-
-      
     </div>
   </body>
 </html>

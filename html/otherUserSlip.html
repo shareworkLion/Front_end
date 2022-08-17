@@ -48,7 +48,6 @@
     <title>OTHER USER SLIP PAGE</title>
     <link rel="stylesheet" href="/./css/otherUserSlip.css" />
     <script defer src="../js/test.js"></script>
-
   </head>
   <body>
     <!-- HEADER -->
@@ -69,6 +68,7 @@
           type="search"
           placeholder="다양한 Slip을 검색하며 실패를 즐기세요!"
           aria-label="Search"
+          onkeypress="javascript:if(event.keyCode==13) {btnSearchClicked()}"
         />
         <button class="material-icons btnSearch" type="submit">search</button>
       </div>
@@ -124,7 +124,7 @@
 
       <!-- 아이콘 - 수정/업로드 -->
       <div class="icon-wrapper">
-        <button id="btnFollow" onclick="btnFollowClicked()" >
+        <button id="btnFollow" onclick="btnFollowClicked()">
           <img src="../img/Button/Btn_Follow.png" alt="" />
         </button>
         <button id="btnScrap" onclick="btnScrapClicked()">
@@ -236,7 +236,10 @@
       <!-- 아이콘 - 좋아요, 코멘트 -->
       <div class="icon-wrapper">
         <button id="btnComments" onclick="btnCommentsCliked()">
-          <img src="../img/Button/Button_reverse/Btn_CommentsSmall_Rev.png" alt="" />
+          <img
+            src="../img/Button/Button_reverse/Btn_CommentsSmall_Rev.png"
+            alt=""
+          />
         </button>
         <button id="btnLikes" onclick="btnCommentsClicked()">
           <img src="../img/Button/Btn_Likes.png" alt="" />
@@ -281,7 +284,11 @@
           </div>
           <div class="mb-3 comments-container4">
             <button class="btnNestedComments">
-              <img src="../img/Button/Btn_Comments.png" onclick="btnNestedCommentsClicked()" alt="" />
+              <img
+                src="../img/Button/Btn_Comments.png"
+                onclick="btnNestedCommentsClicked()"
+                alt=""
+              />
             </button>
           </div>
 
@@ -349,7 +356,6 @@
           </form>
         </div>
       </section>
-
     </div>
   </body>
 </html>

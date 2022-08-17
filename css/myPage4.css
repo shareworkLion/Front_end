@@ -84,9 +84,9 @@ a {
 }
 .msg {
   text-align: right;
-  /* float: right;  */
   font-size: 14px;
   color: rgba(0, 0, 0, 0.412);
+  visibility: hidden;
 }
 .changePw {
   background-color: rgba(0, 0, 0, 0);

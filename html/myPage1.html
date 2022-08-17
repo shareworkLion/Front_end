@@ -41,6 +41,7 @@
     />
 
     <link rel="stylesheet" href="/./css/myPage1.css" />
+    <script defer src="../js/test.js"></script>
   </head>
   <body>
     <!-- HEADER -->
@@ -66,8 +67,15 @@
           type="search"
           placeholder="다양한 Slip을 검색하며 실패를 즐기세요!"
           aria-label="Search"
+          onkeypress="javascript:if(event.keyCode==13) {btnSearchClicked()}"
         />
-        <button class="material-icons btnSearch" type="submit">search</button>
+        <button
+          class="material-icons btnSearch"
+          type="submit"
+          onclick="btnSearchClicked()"
+        >
+          search
+        </button>
       </div>
       <li class="nav-item">
         <a class="mt-1 nav-link" id="btnToMyGalleryRainbow" href="#">

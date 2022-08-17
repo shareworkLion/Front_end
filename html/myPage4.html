@@ -41,13 +41,17 @@
 
     <link rel="stylesheet" href="../css/myPage4.css" />
     <script defer src="../js/test.js"></script>
-
   </head>
   <body>
     <!-- HEADER -->
     <ul class="nav justify-content-center pt-1 pb-1">
       <li class="nav-item">
-        <a class="nav-link" id="btnLogo" aria-current="page" href="#">
+        <a
+          class="nav-link"
+          id="btnLogo"
+          aria-current="page"
+          href="../index.html"
+        >
           <img src="../img/Logo.png" alt="Let's Slip" />
         </a>
       </li>
@@ -62,17 +66,22 @@
           type="search"
           placeholder="다양한 Slip을 검색하며 실패를 즐기세요!"
           aria-label="Search"
+          onkeypress="javascript:if(event.keyCode==13) {btnSearchClicked()}"
         />
         <button class="material-icons btnSearch" type="submit">search</button>
       </div>
       <li class="nav-item">
-        <a class="mt-1 nav-link" id="btnToMyGalleryRainbow" href="#">
-          <img src="../img/Button/Btn_toMyGallery.png" alt="" />
+        <a class="mt-1 nav-link" id="btnToMain" href="../index.html">
+          <img src="../img/Button/Btn_toMainPage.png" alt="" />
         </a>
       </li>
       <li class="nav-item">
-        <a class="mt-1 nav-link" id="btnOpenGallery" href="#">
-          <img src="../img/Button/Btn_openGallery.png" alt="" />
+        <a
+          class="mt-1 nav-link"
+          id="btnToMyGalleryRainbow"
+          href="./my_gallery_category.html"
+        >
+          <img src="../img/Button/Btn_toMyGallery.png" alt="" />
         </a>
       </li>
     </ul>
@@ -103,7 +112,7 @@
               id="mypageCurrentPWD"
               placeholder="비밀번호를 입력해주세요"
             />
-            <p class="msg">비밀번호를 다시 한번 확인해주세요</p>
+            <p class="msg msg1">비밀번호를 다시 한번 확인해주세요</p>
           </div>
           <div class="mb-5 mt-5">
             <label
@@ -118,7 +127,7 @@
               id="mypageNewPWD"
               placeholder="새로운 비밀번호를 입력해주세요"
             />
-            <p class="msg">
+            <p class="msg msg2">
               8~16자의 영문 대 소문자, 숫자, 특수문자를 사용해주세요
             </p>
           </div>
@@ -135,7 +144,7 @@
               id="mypageCheckPWD"
               placeholder="비밀번호를 다시 입력해주세요"
             />
-            <p class="msg">비밀번호를 다시 확인해주세요</p>
+            <p class="msg msg3">비밀번호를 다시 확인해주세요</p>
           </div>
           <button class="changePw" onclick="changePWD()">
             <img src="../img/Button/Btn_changePw.png" alt="" />
