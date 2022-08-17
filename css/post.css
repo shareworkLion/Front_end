@@ -1,5 +1,7 @@
 body {
     line-height: 1.4;
+    font-family: "Noto Sans KR", sans-serif;
+
   }
   a {
     text-decoration: none;
@@ -39,6 +41,7 @@ body {
     background-color: rgba(0,0,0,0);
     border: none;
   }
+
 
   .writePost .defaultImg {
     float: left;
@@ -81,4 +84,23 @@ body {
   }
   .sun2 {
     margin-top: 10px;
+  }
+
+  .radioQ {
+    font-weight: bold;
+  }
+
+  .PostBtn {
+    float: right;
+    width: 200px;
+    height: auto;
+    border: 1px solid white;
+    background: linear-gradient(150deg, red, orange, yellow, green, rgb(70, 184, 255), rgb(41, 41, 255), purple);
+    font-weight: bold;
+    font-size: large;
+  }
+
+  .PostBtn:hover{
+    border: 1px solid white;
+    opacity: 0.9;
   }
