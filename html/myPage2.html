@@ -56,7 +56,7 @@
         </a>
       </li>
       <li class="nav-item aboutus">
-        <a class="nav-link" id="toAboutUs" href="#">
+        <a class="nav-link" id="toAboutUs" href="./aboutUs.html">
           <img src="../img/Button/Btn_toAboutUs.png" alt="" />
         </a>
       </li>
@@ -66,22 +66,28 @@
           type="search"
           placeholder="다양한 Slip을 검색하며 실패를 즐기세요!"
           aria-label="Search"
-          onkeypress="javascript:if(event.keyCode==13) {btnSearchClicked()}"
         />
-        <button class="material-icons btnSearch" type="submit">search</button>
+        <button class="material-icons btnSearch" type="submit">
+          search
+        </button>
       </div>
       <li class="nav-item">
         <a
           class="mt-1 nav-link"
-          id="btnOpenGallery"
+          id="btnToMyGalleryRainbow"
           href="./my_gallery_category.html"
         >
-          <img src="../img/Button/Btn_openGallery.png" alt="" />
+          <img src="../img/Button/Btn_toMyGallery.png" alt="" />
         </a>
       </li>
       <li class="nav-item">
-        <a class="mt-1 nav-link" id="btnToMain" href="../index.html">
-          <img src="../img/Button/Btn_toMainPage.png" alt="" />
+        <a class="mt-1 nav-link" id="btnOpenGallery" href="./login.html">
+          <img src="../img/Button/Btn_openGallery.png" alt="" />
+        </a>
+      </li>
+      <li calss="nav-item" style="visibility: hidden;">
+        <a class="mt-1 nav-link" href="./myPage1.html" style="display: flex; justify-content: center; align-items: center;">
+          <span class="material-icons" style="color: #fff; font-size: 25px; margin-top: 6px">settings</span>
         </a>
       </li>
     </ul>
@@ -100,25 +106,27 @@
         <p class="mt-5">현재 활동 이름</p>
         <div class="small-wrapper">
           <div class="currentUserName">Hi Susan</div>
-          <div class="mb-5 mt-5">
-            <label
-              for="userid"
-              class="form-label"
-              style="float: left; font-weight: bold"
-              >활동할 이름</label
-            >
-            <input
-              type="text"
-              class="form-control newUID"
-              id="mypageNewId"
-              name="newUID"
-              placeholder="새로 활동하실 이름을 입력해주세요"
-            />
-            <p class="msg">더 독특한 이름을 떠올려주세요</p>
-          </div>
-          <button type="button" class="changeName" onclick="btnChangeName()">
-            <img src="../img/Button/Btn_changeName.png" alt="" />
-          </button>
+          <form action="">
+            <div class="mb-5 mt-5">
+              <label
+                for="userid"
+                class="form-label"
+                style="float: left; font-weight: bold"
+                >활동할 이름</label
+              >
+              <input
+                type="text"
+                class="form-control newUID"
+                id="mypageNewId"
+                name="newUID"
+                placeholder="새로 활동하실 이름을 입력해주세요"
+              />
+              <p class="msg">더 독특한 이름을 떠올려주세요</p>
+            </div>
+            <button type="submit" class="changeName" onclick="btnChangeName()">
+              <img src="../img/Button/Btn_changeName.png" alt="" />
+            </button>
+          </form>
         </div>
       </div>
     </div>

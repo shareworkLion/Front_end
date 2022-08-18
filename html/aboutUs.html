@@ -57,7 +57,7 @@
         </a>
       </li>
       <li class="nav-item aboutus">
-        <a class="nav-link" id="toAboutUs" href="#">
+        <a class="nav-link" id="toAboutUs" href="./html/aboutUs.html">
           <img src="../img/Button/Btn_toAboutUs.png" alt="" />
         </a>
       </li>
@@ -67,18 +67,28 @@
           type="search"
           placeholder="다양한 Slip을 검색하며 실패를 즐기세요!"
           aria-label="Search"
-          onkeypress="javascript:if(event.keyCode==13) {btnSearchClicked()}"
         />
-        <button class="material-icons btnSearch" type="submit">search</button>
+        <button class="material-icons btnSearch" type="submit">
+          search
+        </button>
       </div>
       <li class="nav-item">
-        <a class="mt-1 nav-link" id="btnToMyGalleryRainbow" href="#">
+        <a
+          class="mt-1 nav-link"
+          id="btnToMyGalleryRainbow"
+          href="../html/my_gallery_category.html"
+        >
           <img src="../img/Button/Btn_toMyGallery.png" alt="" />
         </a>
       </li>
       <li class="nav-item">
-        <a class="mt-1 nav-link" id="btnOpenGallery" href="#">
+        <a class="mt-1 nav-link" id="btnOpenGallery" href="../html/login.html">
           <img src="../img/Button/Btn_openGallery.png" alt="" />
+        </a>
+      </li>
+      <li calss="nav-item">
+        <a class="mt-1 nav-link" href="../html/myPage1.html" style="display: flex; justify-content: center; align-items: center;">
+          <span class="material-icons" style="color: #fff; font-size: 25px; margin-top: 6px">settings</span>
         </a>
       </li>
     </ul>
@@ -134,7 +144,7 @@
         <img src="../img/Aboutus_Img.png" alt="" />
         <p>이제 여러분의 차례입니다.</p>
         <p>Let's Slip에서 당신이 미끄러지는 모든 순간을 전시하세요!</p>
-        <button class="openGallery">
+        <button class="openGallery" onclick="location.href='my_gallery_category.html'">
           <img src="../img/Button/Btn_openGallery.png" alt="" />
         </button>
       </div>

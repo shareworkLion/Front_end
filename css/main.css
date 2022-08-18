@@ -85,6 +85,9 @@ a {
   background-color: rgba(0, 0, 0, 0);
   border: none;
 }
+.mainGallery .btnForward {
+  visibility: hidden;
+}
 .mainGallery .btnForward,
 .mainGallery .btnNext {
   margin-top: calc((484px + 16px * 2) / 2 - 70px);
